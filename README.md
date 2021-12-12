@@ -1,5 +1,5 @@
 ### Hi there, we're Quntu Team 👋 
-
+___
 [![Twitter Follow](https://img.shields.io/twitter/follow/QuntuOfficial?style=social)](https://twitter.com/intent/follow?original_referer=https%3A%2F%2Fgithub.com%2Fwyneeq&screen_name=Wynee)
 
 ## We are a small developer team!
@@ -9,19 +9,24 @@
 - 👯 We have published this Program as Open Source for you!
 - ⚡ We made this program within 2 hours so, while commenting about our Program, please be gentle while passing through us. 😂
 - 🥅 2022 Goals: Publishing our first Online Game and creating more programs for you to use!
-
-### Connect with us:
-
-[<img align="left" alt="codeSTACKr | YouTube" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/youtube.svg" />][youtube]
-[<img align="left" alt="codeSTACKr | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter]
-[<img align="left" alt="codeSTACKr | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram]
-
-<br />
-
 ___
+### Connect with us:
+[<img align="left" alt="Quntu | YouTube" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/youtube.svg" />][youtube]
+[<img align="left" alt="Quntu | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter]
+[<img align="left" alt="Quntu | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram]
+<br />
+<br/>
+___
+<center><img src="https://i.imgur.com/4HxzgXW.png" data-canonical-src="https://i.imgur.com/4HxzgXW.png" width="100" height="100" /></center>
 
-<center>![screenshot](https://github.com/wyneeq/Transpiration/blob/main/Transpiration.gif?raw=true)</center>
+### <center>Transpiration</center>
 
+<br/>
+<br/>
+## <center>**Example for Use:**</center>
+<center>![alt text](https://github.com/wyneeq/Transpiration/blob/main/Transpiration.gif?raw=true)</center>
+<br/>
+<br/>
 ## How to use:
 
 * Literally, you can use this program on every program which it's not supporting layer system.
@@ -41,6 +46,7 @@ ___
   - You can set it to the Borderless Full-screen from the Settings. It will work fine again.
 * Cross platform
   - Windows, macOS and Linux ready.
+
 </details>
 [screenshot]: https://github.com/wyneeq/Transpiration/blob/main/Transpiration.gif
 [website]: https://quntu.dev/
