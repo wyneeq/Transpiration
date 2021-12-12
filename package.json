@@ -1,0 +1,24 @@
+{
+  "name": "Transpiration",
+  "version": "1.0.0",
+  "description": "Transpiration",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pack:osx": "electron-packager . Transpiration --out=dist/osx --platform=darwin --arch=x64 --icon=Transpiration.ico",
+    "pack:win64": "electron-packager . Transpiration --out=dist/win --platform=win32 --arch=x64 app-version=1.0 --icon=Transpiration.ico",
+    "pack:linux": "electron-packager . Transpiration --out=dist/linux --platform=linux --arch=x64 app-version=1.0 --icon=Transpiration.ico",
+    "build": "npm run pack:win64 && npm run pack:linux"
+  },
+  "author": "Wynee",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^16.0.4",
+    "electron-packager": "^15.4.0"
+  },
+  "dependencies": {
+    "codesign": "0.0.9",
+    "electron-localshortcut": "^3.2.1"
+  }
+}

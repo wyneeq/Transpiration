@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <title>Transpiration</title>
+
+
+    <link rel="stylesheet" href="global.css">
+
+    <link rel="stylesheet" href="uikit/css/uikit.min.css" />
+    <script src="uikit/js/uikit.min.js"></script>
+    <script src="uikit/js/uikit-icons.min.js"></script>
+
+  </head>
+  <body>
+    <div id="root" class="root">
+        <img src="" id="img1" class="baseImg" />
+
+        <div class="uk-grid-medium uk-child-width-expand@s uk-text-center" id="uploaderDiv" uk-grid>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body">
+                    
+                    <h5 class="uk-heading-bullet uk-text-bold"><img src="Transprtn.png" class="quntuLogo"/>Transpiration</h5>
+                    <span class="uk-text-success uk-text-italic uk-text-bold uk-text-small" >every program supports now a new layer <img src="licking.png" class="quntuLogo"/></span>
+                </div>
+                
+            </div>
+        </div>
+        <div class="uk-grid-medium uk-child-width-expand@s uk-text-center" id="uploaderDiv2" uk-grid>
+            <div>
+                <div uk-form-custom id="uploader-form">
+                    <div class="js-upload uk-placeholder uk-text-center">
+                        <span uk-icon="icon: cloud-upload"></span>
+                        <span class="uk-text-middle">Attach images by dropping them here or</span>
+                            <input type="file" accept="image/*" id="fileUploader" multiple>
+                            <span class="uk-text-success">selecting one</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="uk-grid-medium uk-child-width-expand@s uk-text-center" id="uploaderDiv3" uk-grid>
+            <div>
+                <span uk-icon="commenting" type="button"  id="helpOpenButton" uk-toggle="target: #modal-overflow"></span>
+                <img src="qlogo.png" class="quntuLogo"/>
+                <span class="uk-text-success uk-text-italic uk-text-small">powered by quntu</span>
+            </div>
+        </div>
+        <div id="modal-overflow" class="uk-flex-top" uk-modal>
+            <div class="uk-modal-dialog">
+                <div class="uk-modal-header">
+                    <h2 class="uk-modal-title">Help - Shortcuts</h2>
+                </div>
+
+                <div class="uk-modal-body uk-margin-auto-vertical" uk-overflow-auto>
+                    <span class="keyicon">control</span>
+                    <span class="keyicon">+</span>
+                    <span class="keyicon">A</span>
+                    <span class="">Lowers the opacity / Opaklığı düşürür</span>
+                    <br/>
+                    <br/>
+                    <span class="keyicon">control</span>
+                    <span class="keyicon">+</span>
+                    <span class="keyicon">D</span>
+                    <span class="">Increases opacity  / Opaklığı arttırır</span>
+                    <br/>
+                    <br/>
+                    <span class="keyicon">toggle</span>
+                    <span class="keyicon">control</span>
+                    <span class="keyicon">+</span>
+                    <span class="keyicon">T</span>
+                    <span class="">Sets Opacity to opposite Opacity / Opaklığı zıt Opaklığa ayarlar</span>
+                    <br/>
+                    <br/>
+                    <span class="keyicon">toggle</span>
+                    <span class="keyicon">control</span>
+                    <span class="keyicon">+</span>
+                    <span class="keyicon">L</span>
+                    <span class="">Pin on top / En üstte tuttur</span>
+                    <br/>
+                    <br/>
+                    <span class="keyicon">control</span>
+                    <span class="keyicon">+</span>
+                    <span class="keyicon">W</span>
+                    <span class="">Closes the program / Programı kapatır</span>
+                    <br/>
+                    <br/>
+                    <span class="keyicon">control</span>
+                    <span class="keyicon">+</span>
+                    <span class="keyicon">Q</span>
+                    <span class="">Upload new image / Yeni resim yükle </span>
+                    <br/>
+                    <br/>
+                    <span class="keyicon">control</span>
+                    <span class="keyicon">+</span>
+                    <span class="keyicon">C</span>
+                    <span class="">Centers the program / Programı merkezler</span>
+                    <br/>
+                    <br/>
+                    <span class="keyicon">toggle</span>
+                    <span class="keyicon">control</span>
+                    <span class="keyicon">+</span>
+                    <span class="keyicon">H</span>
+                    <span class="">Shows the help menu / Yardım menüsünü gösterir</span>
+
+                </div>
+
+                <div class="uk-modal-footer uk-text-right">
+                    <button class="uk-button uk-button-default uk-modal-close" type="button">hıhı.</button>
+                </div>
+            </div>
+        </div>
+
+        <script nonce="d3adbe3fed" type="text/javascript" src="global.js"></script>
+    </div>
+  </body>
+</html>
